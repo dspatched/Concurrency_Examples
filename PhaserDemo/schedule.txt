@@ -1,0 +1,7 @@
+Architect 1 5
+Analyst 1 1
+SeniorDev 2 4
+JunDev 2 3
+JunDev 2 3
+Tester 3 4
+Maintainer 5 5
