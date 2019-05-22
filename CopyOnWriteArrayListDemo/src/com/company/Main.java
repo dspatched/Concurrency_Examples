@@ -6,6 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.*;
 
+/**
+ * This example demonstrates throwing ConcurrentModificationEsception by the non thread-safe lists
+ * It also demonstrates that the CopyOnWriteArrayList iterator is not guaranteed to see any subsequent list updates
+ */
 public class Main {
 
     private static CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList();
